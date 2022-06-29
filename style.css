@@ -1,0 +1,31 @@
+body {
+    background: #f2eee3;
+    background-blend-mode: screen;
+    border-color: sandybrown;
+    border-style: outset;
+    border-width: 20px;
+}
+.clock {
+    position: relative;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    color: chocolate;
+    font-size: 60px;
+    font-family: monospace;
+    letter-spacing: 7px;
+    vertical-align: center;
+
+}
+
+p {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    font-size: 50px;
+    color: rosybrown;
+    vertical-align: center;
+    font-family: serif;
+    font-display: inherit;
+
+}
